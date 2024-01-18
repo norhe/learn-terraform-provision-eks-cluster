@@ -6,3 +6,15 @@ variable "region" {
   type        = string
   default     = "us-east-2"
 }
+
+variable "instance_types" {
+  default = "t3.micro"
+}
+
+variable "num-group-1-nodes" {
+  default = "2"
+}
+
+variable "num-group-2-nodes" {
+  default = "1"
+}
